@@ -2,6 +2,12 @@
   margin: 10px 0px 20px 0px;
   text-align: center;
   overflow-x: auto;
+  position: absolute;
+  top: -165px;
+  width: 100%;
+  left: 0;
+  padding: 15px 0;
+
 
   ul {
     display: flex;
@@ -50,12 +56,4 @@
 
 .categories-list .container.list-container {
   padding-top: 160px;
-
-  .categories-continent-menu {
-    position: absolute;
-    top: -165px;
-    width: 100%;
-    left: 0;
-    padding: 15px 0;
-  }
 }
