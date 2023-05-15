@@ -34,6 +34,17 @@
         display: block;
         border-radius: 20px;
         padding: 15px;
+        transition: all 0.2s linear 0s;
+        &:hover {
+          background: #fd9d2a;
+
+          img {
+            filter: brightness(255);
+          }
+          .continent-name {
+            color: #fff;
+          }
+        }
       }
 
       img {
@@ -42,13 +53,13 @@
         max-width: 75px;
         display: inline-block;
         object-fit: scale-down;
-        filter: sepia(100%);
       }
 
       .continent-name {
         display: block;
-        color: #28322d;
+        color: #fd9d2a;
         margin-top: 5px;
+        font-weight: 600;
       }
     }
   }
