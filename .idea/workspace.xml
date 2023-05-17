@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eb752b6-047d-4037-9474-d4ba7b22a96c" name="Changes" comment="update header menu">
-      <change beforePath="$PROJECT_DIR$/plugin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <workItem from="1684134278681" duration="4807000" />
       <workItem from="1684200843323" duration="27000" />
       <workItem from="1684311187660" duration="110000" />
-      <workItem from="1684311313765" duration="637000" />
+      <workItem from="1684311313765" duration="1934000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1683882672012</created>
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684311335868</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update header menu">
+      <created>1684312147533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684312147533</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

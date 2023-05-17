@@ -5,8 +5,19 @@
     li a {
       margin-bottom: 10px;
     }
+    img{
+      height: 40px
+    }
+    .continent-name {
+      margin-top: 0;
+      font-weight: 500;
+    }
+
   }
 }
 .categories-list .container.list-container {
   padding-top: 330px;
+}
+.p-navigation {
+  display: none;
 }
