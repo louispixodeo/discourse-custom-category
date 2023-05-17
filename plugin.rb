@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: discourse-custom-nagvigation
+# name: discourse-custom-category
 # about: Custom the continent navigation
 # version: 1.0
 # authors: Louis Pixodeo
