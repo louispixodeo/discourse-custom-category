@@ -1,7 +1,7 @@
 <div class="continent-menu">
   <ul>
     {{#each this.categories as |category|}}
-      <li>
+      <li class="continent-{{category.slug}}">
         <a href="#{{category.slug}}">
               <span class="continent-img ">
                 <img src="{{category.uploaded_logo.url}}" alt="logo">
