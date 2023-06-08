@@ -283,14 +283,6 @@ createWidget(
   )
 );
 
-createWidget('custom-navigation', {
-  tagName: 'div.p-navigation',
-
-  html() {
-    return h('span.greeting', h('b', "hello world"));
-  }
-});
-
 createWidget("header-icons", {
   tagName: "ul.icons.d-header-icons",
 
@@ -369,6 +361,7 @@ createWidget("header-buttons", {
   tagName: "span.header-buttons",
 
   html(attrs) {
+    return;
     if (this.currentUser) {
       return;
     }
@@ -510,7 +503,7 @@ export default createWidget("header", {
 
       const panels = [this.attach("custom-nav")];
 
-      //panels.push(this.attach("header-buttons", attrs));
+      panels.push(this.attach("header-buttons", attrs));
       panels.push(headerIcons);
 
       if (state.searchVisible) {
