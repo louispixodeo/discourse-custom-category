@@ -510,7 +510,7 @@ export default createWidget("header", {
 
       const panels = [this.attach("custom-nav")];
 
-      panels.push(this.attach("header-buttons", attrs));
+      //panels.push(this.attach("header-buttons", attrs));
       panels.push(headerIcons);
 
       if (state.searchVisible) {
