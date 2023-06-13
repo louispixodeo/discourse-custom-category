@@ -1,12 +1,9 @@
 .continent-menu {
-  top: -330px;
+  position: initial;
   ul {
-    flex-wrap: wrap;
+    justify-content: flex-start;
     li a {
       margin-bottom: 10px;
-    }
-    img {
-      height: 40px !important
     }
     .continent-name {
       margin-top: 0 !important;
@@ -16,7 +13,7 @@
   }
 }
 .categories-list .container.list-container {
-  padding-top: 330px;
+  padding-top: inherit;
 }
 .p-navigation {
   display: none;
