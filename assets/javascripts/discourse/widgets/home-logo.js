@@ -10,7 +10,7 @@ export default createWidget("home-logo", {
   tagName: "div.title",
 
   settings: {
-    href: getURL("https://partirseul.pixodeo.net/"),
+    href: getURL("https://www.partirseul.com/"),
   },
 
   buildClasses() {
