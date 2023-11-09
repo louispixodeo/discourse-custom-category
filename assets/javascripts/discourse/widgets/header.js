@@ -12,7 +12,7 @@ import { wantsNewWindow } from "discourse/lib/intercept-click";
 import { logSearchLinkClick } from "discourse/lib/search";
 import RenderGlimmer from "discourse/widgets/render-glimmer";
 import { hbs } from "ember-cli-htmlbars";
-import { hideUserTip } from "discourse/lib/user-tips";
+//import { hideUserTip } from "discourse/lib/user-tips";
 
 let _extraHeaderIcons = [];
 
@@ -174,11 +174,11 @@ createWidget("header-notifications", {
   },
 
   destroy() {
-    hideUserTip("first_notification");
+    //hideUserTip("first_notification");
   },
 
   willRerenderWidget() {
-    hideUserTip("first_notification");
+   // hideUserTip("first_notification");
   },
 });
 
