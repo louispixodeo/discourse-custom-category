@@ -461,7 +461,7 @@ export default createWidget("header", {
       });
 
       if (attrs.onlyIcons) {
-        return headerIcons;
+        //return headerIcons;
       }
 
       const panels = [this.attach("custom-nav"), headerIcons];
