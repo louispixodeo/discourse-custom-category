@@ -8,5 +8,5 @@
 
 #hide_plugin if self.respond_to?(:hide_plugin)
 
-register_asset "stylesheets/custom-category.scss"
-register_asset "stylesheets/custom-category-mobile.scss", :mobile
+#register_asset "stylesheets/custom-category.scss"
+#register_asset "stylesheets/custom-category-mobile.scss", :mobile
